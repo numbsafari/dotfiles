@@ -10,3 +10,9 @@
 	diff = diff --word-diff
 	dc = diff --cached
 	up = "!git remote update -p; git merge --ff-only @{u}"
+
+[push]
+	default = current
+
+[pull]
+	default = current
